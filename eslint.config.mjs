@@ -13,6 +13,9 @@ export default [
       'no-unused-vars': 'error',
       'no-undef': 'error',
     },
+    parserOptions: {
+      project: './tsconfig.json',
+    },
     // "extends": ["plugin:prettier/recommended"]
   },
   eslintPluginPrettierRecommended,
