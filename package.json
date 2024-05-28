@@ -4,7 +4,10 @@
   "description": "infra for fs project",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "build": "tsc -b packages/*",
+    "lint": "eslint 'packages/**/*.{js,ts,tsx}'",
+    "format": "prettier --write 'packages/**/*.{js,ts,tsx,json,css,md}'",
+    "test": "jest",
     "prepare": "husky"
   },
   "author": "aek",
