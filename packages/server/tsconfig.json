@@ -9,7 +9,7 @@
     "incremental": true,
     "declaration": true,
     "moduleResolution": "node",
-    "rootDir": "./src",
+    "rootDir": "./",
     "outDir": "./build",
     "composite": true
   },
