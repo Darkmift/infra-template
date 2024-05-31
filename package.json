@@ -27,5 +27,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.11.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^28.5.0"
   }
 }
