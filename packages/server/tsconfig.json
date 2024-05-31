@@ -10,17 +10,9 @@
     "declaration": true,
     "moduleResolution": "node",
     "rootDir": "./src",
-    "outDir": "./build"
+    "outDir": "./build",
+    "composite": true
   },
-  "files": [],
-  "references": [
-    {
-      "path": "./packages/client"
-    },
-    {
-      "path": "./packages/server"
-    }
-  ],
-  "include": ["packages/**/*.ts"],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
