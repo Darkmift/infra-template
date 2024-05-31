@@ -13,10 +13,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "target": "es2022",
-    "declaration": true,
     "incremental": true,
     "forceConsistentCasingInFileNames": true,
-    "rootDir": "./src",
+    "rootDir": "./",
     "outDir": "./build",
     "composite": true,
     "plugins": [
