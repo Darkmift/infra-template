@@ -7,10 +7,10 @@
     "build": "tsc -b packages/*",
     "lint": "eslint --fix 'packages/**/*.{js,ts,tsx}'",
     "format": "prettier --write 'packages/**/*.{js,ts,tsx,json,css,md}'",
-    "playwright": "cd packages/client && npm run playwright",
-    "jest": "jest",
+    "test:playwright": "cd packages/client && npm run playwright",
+    "test:jest": "jest",
     "prepare": "husky",
-    "prepush": "npm run jest && npm run playwright"
+    "prepush": "npm run test:*"
   },
   "author": "aek",
   "license": "ISC",
