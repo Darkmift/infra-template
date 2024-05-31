@@ -9,7 +9,8 @@
     "format": "prettier --write 'packages/**/*.{js,ts,tsx,json,css,md}'",
     "playwright": "cd packages/client && npm run playwright",
     "jest": "jest",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prepush": "npm run jest && npm run playwright"
   },
   "author": "aek",
   "license": "ISC",
